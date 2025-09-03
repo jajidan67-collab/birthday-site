@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My dear sweetheart wifey 💖</title>
+  <style>
+    :root{
+      --pink:#ff5d8f; --rose:#ff9aa2; --bg1:#ffdde1; --bg2:#ffe8ef;
+      --card:#ffffffdd; --text:#2b2b2b;
+    }
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Noto Sans",sans-serif;
+      background: radial-gradient(1200px 800px at 20% 0%, var(--bg1), var(--bg2));
+      color:var(--text);
+    }
+    .wrap{max-width:900px; margin:0 auto; padding:24px}
+    .title{
+      text-align:center; font-weight:800; font-size:28px;
+      background: linear-gradient(90deg, var(--pink), #ff7fb7);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .sub{ text-align:center; color:#444; margin-bottom:18px }
+    .card{
+      background:var(--card); border-radius:18px; padding:18px;
+      box-shadow:0 10px 28px #ff4f7a1a; margin:12px 0;
+    }
+    .msg{ font-size:18px; }
+    .stickers{ text-align:center; margin-top:10px }
+    .stickers img{
+      width:220px; border-radius:16px; box-shadow:0 8px 18px #00000015;
+    }
+    .btns{ display:grid; gap:10px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); margin-top:10px }
+    button{
+      border:0; padding:12px 14px; border-radius:12px; cursor:pointer; font-weight:700;
+      background:linear-gradient(90deg,var(--pink),#ff7fb7); color:#fff;
+      box-shadow:0 10px 20px #ff4f7a3a;
+    }
+    button:hover{ filter:brightness(1.05) }
+    footer{ text-align:center; color:#666; font-size:13px; margin:22px 0 }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="title">Please amake khoma kore den 💕</h1>
+    <p class="sub">Love you bby ❤️</p>
+
+    <div class="card msg">
+      Hey my love, tumi amar jonne onek special. Jodi kono vul kora thake, **khoma kore dio**.  
+      Ami chesta korbo tomar mukhe hasi rakhte—today, tomorrow, always. 💗 You're always my favourite person ever please aber er moto.
+      kohma kore den.are kkno amon korbo nh.🥹 Love you Orin Love you so much bby 🫶🏼🦋
+    </div>
+
+    <!-- 🔻 Love Sticker -->
+    <div class="card stickers">
+      <h3>Love Sticker</h3>
+      <img src="love.png" alt="Love sticker">
+      <p style="font-size:14px; color:#666; margin-top:8px">
+        (এই ফাইলের নাম অবশ্যই repo তে <code>love.png</code> হতে হবে)
+      </p>
+    </div>
+
+    <!-- 🔻 Cute buttons with messages -->
+    <div class="card">
+      <div class="btns">
+        <button onclick="alert('Tumar হাসিটাই আমার favorite thing! 😍')">What's my favorite thing about you?</button>
+        <button onclick="alert('Future e ami amader dujonke ekshathe dekhchi—always & forever 💍')">Where do I see us in the future?</button>
+        <button onclick="alert('Jodi vul kore thaki, ami shotti sorry 🥺 Please khoma kore dio.')">A little apology</button>
+      </div>
+    </div>
+
+    <footer>Made with love 💘</footer>
+  </div>
+</body>
+</html>
